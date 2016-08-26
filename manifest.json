@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "FoPo - Fear Of Piccing Out",
+  "description": "Get notifications when new pics are posted for your favourite tag",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "alarms",
+    "notifications",
+    "http://piccing.com:8080/img/*"
+  ]
+}

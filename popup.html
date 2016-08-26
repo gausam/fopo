@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>FoPo - Fear of Piccing Out!</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        min-width: 400px;
+      }
+      
+
+      #hasTag {
+        display: none;
+      }
+
+      #noTag {
+        display: none;
+      }
+
+      button {
+        background-color: transparent;
+        text-decoration: underline;
+        border: none;
+        color: blue;
+        cursor: pointer;
+      }
+
+      button:focus {
+        outline: none;
+      }
+
+
+    </style>
+
+    <script src="popup.js"></script>
+  </head>
+  <body>
+
+    <div id="hasTag">
+      
+      <p class="watch">
+        Watching tag: <span id="tagName"></span> &nbsp;&nbsp; <button class="search" id="serach">Peek now</button> | &nbsp;&nbsp;<button id="stopWatch">Stop watch</button> 
+      </p> 
+
+      <p class="schedule">
+        Feed FoPo every <select id="fopoSchedule">
+          <option>1</option>
+          <option>2</option>
+          <option>5</option>
+          <option>10</option>
+          <option>15</option>
+          <option>30</option>
+          <option>60</option>
+          <option>180</option>
+        </select> minute(s) <span style='opacity:0' id='toast'>Saved!</span>
+      </p>
+
+    </div>
+
+    <div id="noTag">
+      <div>You're not watching any tag right now. <a id="getInspired" href="#">Get inspired!</a></div>
+    </div>
+
+  </body>
+</html>
+
