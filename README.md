@@ -4,7 +4,7 @@ FoPo will obsessively watch a tag for you, letting you know of new piccs for tha
 
 ## Installation
 
-Uploading to the Chrome store is too much work. So [download the latest release's `.crx` file](https://github.com/ihatehandles/fopo/releases) and then [follow this guide](https://blog.emailhunter.co/install-chrome-extension-manually/)
+[Download FoPo](https://chrome.google.com/webstore/detail/fopo-fear-of-piccing-out/jgcokkalbcjibejkbgodnadakcleecih) from the Chrome Web Store or manually [from the latest release's `.crx` file](https://github.com/ihatehandles/fopo/releases) and then [follow this guide](https://blog.emailhunter.co/install-chrome-extension-manually/)
 
 Enjoy!
 

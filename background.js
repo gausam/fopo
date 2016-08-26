@@ -27,7 +27,7 @@ function fetchNewThings(tagName, latestPiccId)
 
       chrome.notifications.create('fopo-notification', {
         "type": "image",
-        "iconUrl": chrome.extension.getURL("icon.png"),
+        "iconUrl": chrome.extension.getURL("icon_128.png"),
         "imageUrl": picc.url,
         "title": "Picc by " + picc.profileName + " for tag " + tagName,
         "message": picc.caption
